@@ -71,6 +71,17 @@ img {
 .debug .info_section#info2 {
     background-color: #d3d3d3;
 }
+
+.debug .banner_bottom {
+    height: 500px;
+    background-color: #d3d3d3;
+}
+
+.debug .banner_bottom .container {
+    height: 90%;
+    background-color: #228b22;
+}
+
 /* #endregion debug */
 
 
