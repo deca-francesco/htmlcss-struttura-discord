@@ -13,17 +13,70 @@ img {
 
 
 /* #region debug */
+.debug, .debug *{
+    border: 1px dashed black;
+}
+
+.debug header {
+    background-color: #add8e6;
+    height: 50px;
+}
+
+.debug header .container {
+    background-color: #daa520;
+    height: 70%;
+}
+
+.debug .logo:before {
+    content: "logo";
+    align-self: center;
+}
+
+.debug nav::before {
+    content: "link link link link link";
+    align-self: center;
+}
+
+.debug .login::before {
+    content: "login";
+    align-self: center;
+}
 
 /* #endregion debug */
 
 
 /* #region utilities */
+.flex-container {
+    display: flex;
+}
 
+.container {
+    width: 70%;
+    margin: auto;
+}
 
 /* #endregion utilities */
 
 
 /* #region header */
+header .container {
 
+}
 
+.logo {
+    width: 25%;
+    padding-left: 0.5rem;
+    justify-content: start;
+}
+
+nav {
+    width: 50%;
+    justify-content: center;
+}
+
+.login {
+    width: 25%;
+    padding-right: 0.5rem;
+    justify-content: end;
+}
 /* #endregion header */
