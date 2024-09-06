@@ -11,7 +11,6 @@ img {
 
 /* #endregion common */
 
-
 /* #region debug */
 .debug, .debug *{
     border: 1px dashed black;
@@ -28,7 +27,7 @@ img {
     height: 70%;
 }
 
-.debug .logo:before {
+.debug .logo_header:before {
     content: "logo";
 }
 
@@ -96,8 +95,38 @@ img {
     border: 1px dashed white;
 }
 
-/* #endregion debug */
+.debug .footer_bottom {
+    height: 70px;
+    background-color: #23272a;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
 
+.debug .footer_bottom .container {
+    height: 80%;
+    background-color: #7fffd4;
+}
+
+.debug .footer_bottom .logo_footer {
+    height: 20px;
+    width: 40px;
+    background-color: #ffb6c1;
+}
+
+.debug .footer_bottom .logo_footer::before {
+    content: "Logo";
+}
+
+.debug .footer_bottom .footer_btn {
+    height: 20px;
+    width: 60px;
+    background-color: #ffb6c1;
+}
+
+.debug .footer_bottom .footer_btn::before {
+    content: "Bottone";
+}
+/* #endregion debug */
 
 /* #region utilities */
 .flex-container {
@@ -111,9 +140,8 @@ img {
 
 /* #endregion utilities */
 
-
 /* #region header */
-.logo {
+.logo_header {
     width: 25%;
     padding-left: 0.5rem;
     justify-content: start;
@@ -133,7 +161,6 @@ nav {
     align-items: center;
 }
 /* #endregion header */
-
 
 /* #region main */
 .banner_top .container {
@@ -162,5 +189,11 @@ nav {
 .footer_top .footer_small {
     width: calc(100% / 6);
     background-color: #20b2aa;
+}
+
+.footer_bottom .container {
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: space-between;
 }
 /* #endregion footer*/ 
