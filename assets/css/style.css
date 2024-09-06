@@ -82,6 +82,20 @@ img {
     background-color: #228b22;
 }
 
+/* footer */
+.debug .footer_top {
+    height: 400px;
+    background-color: #23272a;
+}
+
+.debug .footer_top .container {
+    height: 90%;
+}
+
+.debug .footer_top .footer_small {
+    border: 1px dashed white;
+}
+
 /* #endregion debug */
 
 
@@ -134,3 +148,19 @@ nav {
     width: 40%;
 }
 /* #endregion main */
+
+/* #region footer */
+.footer_top .container {
+    margin-top: 0.5%;
+}
+
+.footer_top .footer_big {
+    width: calc(100% / 6 *2);
+    background-color: #f08080;
+}
+
+.footer_top .footer_small {
+    width: calc(100% / 6);
+    background-color: #20b2aa;
+}
+/* #endregion footer*/ 
