@@ -56,6 +56,21 @@ img {
     background-color: white;
 }
 
+.debug .info_section .container {
+    height: 70%;
+}
+
+.debug .info_section .info_big {
+    background-color: #1e90ff;
+}
+
+.debug .info_section .info_small {
+    background-color: #ffc0cb;
+}
+
+.debug .info_section#info2 {
+    background-color: #d3d3d3;
+}
 /* #endregion debug */
 
 
@@ -73,10 +88,6 @@ img {
 
 
 /* #region header */
-header .container {
-
-}
-
 .logo {
     width: 25%;
     padding-left: 0.5rem;
@@ -104,5 +115,11 @@ nav {
     width: 50%;
 }
 
+.info_big {
+    width: 60%;
+}
 
+.info_small {
+    width: 40%;
+}
 /* #endregion main */
